@@ -7,6 +7,7 @@ The purpose of this analysis is to observe and predict various car metrics throu
 
 # Linear Regression to Predict MPG
 The dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. From using R, a linear model was created that predicts the mpg of MechaCar prototypes using several variables from the dataset. The output of this data is shown by the following:
+
  ![Deliverable1_MPG_Linear_Reg](https://user-images.githubusercontent.com/102339838/179429092-54224704-d8e9-46ff-9a65-bc4a58107b1a.png)
 
 Based on this image, there are variables/coefficients that provide a non-random amount of variance to the mpg values in the dataset. The smallest standard error in the linear regression can be attributed to the vehicle weight and spoiler angle. These factors therefore have less variance when it comes to determining the vehicle's MPG.
@@ -26,6 +27,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? This may 
 
 # Summary Statistics on Suspension Coils
 The MechaCar dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using R, a summary statistics table was created to show the suspension coil’s PSI continuous variable across all manufacturing lots, and the following PSI metrics for each lot: mean, median, variance, and standard deviation. These are shown below:
+
  ![Deliverable2_Sus_Coil](https://user-images.githubusercontent.com/102339838/179429146-407c744b-1bae-4dfb-bd33-5d4bc8c17328.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data does meet this design specification for all manufacturing lots in total and each lot individually.
@@ -39,21 +41,25 @@ In stating the hypotheses, assuming a significance of 0.05, the null hypothesis 
 - 
 •	All manufacturing lots
 Reference the image below for the summary statistics:
+
 ![Deliverable3_t_test_allLots](https://user-images.githubusercontent.com/102339838/179429198-05f44695-24c8-4c11-bfde-aeb8b03dccae.png)
 
 o	At a P-Value of 0.06, this fails to reject the null hypothesis and therefore not statistically different.
 •	Lot 1
 Reference the image below for the summary statistics:
+
 ![Deliverable3_t_test_Lot1](https://user-images.githubusercontent.com/102339838/179429222-e3b08db2-b07d-476d-806c-a838e7dc0223.png)
 
 o	At a P-Value of 1, this fails to reject the null hypothesis and therefore not statistically different.
 •	Lot 2
 Reference the image below for the summary statistics:
+
 ![Deliverable3_t_test_Lot2](https://user-images.githubusercontent.com/102339838/179429236-8b895c55-385c-426b-bc45-5bd6a01933bc.png)
 
 o	At a P-Value of 0.60, this fails to reject the null hypothesis and therefore not statistically different.
 •	Lot 3
 Reference the image below for the summary statistics:
+
 ![Deliverable3_t_test_Lot3](https://user-images.githubusercontent.com/102339838/179429239-e00e8950-168e-4ed9-b45f-de352b6340cc.png)
 
 o	At a P-Value of 0.04, it is acceptable to reject the null hypothesis and therefore the PSI is statistically different.
