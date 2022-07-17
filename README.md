@@ -84,10 +84,15 @@ The following provides a structured breakdown for this potential case study:
 •	What data is needed to run the statistical test?
 
   o	Cost, city or highway fuel efficiency, horsepower, maintenance cost, or safety rating (including the MechaCar).
+  
   o	Verify Pre-conditions for Chi-Squared Test
+  
   o	Each subject within a group contributes to only one frequency. In other words, the sum of all frequencies equals the total number of subjects in a dataset.
+  
   o	Each unique value has an equal probability of being observed.
+  
   o	There is a minimum of five observed instances for every unique value for a 2x2 chi-squared table.
+  
   o	For a larger chi-squared table, there is at least one observation for every unique value and at least 80% of all unique values have five or more observations.
 
 # Summary
